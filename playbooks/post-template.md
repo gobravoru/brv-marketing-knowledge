@@ -1,6 +1,6 @@
 # Playbook — Post page template
 
-После того, как пост опубликован и Артём собрал метрики, Hype создаёт страницу `wiki/posts/YYYY-MM-DD-<slug>.md` по этому шаблону.
+После того, как пост опубликован и Артём собрал метрики, Steve создаёт страницу `wiki/posts/YYYY-MM-DD-<slug>.md` по этому шаблону, а кросс-паттерны разносит в [[learnings]] (skill capture-knowledge).
 
 ## Шаблон
 
