@@ -2,7 +2,7 @@
 
 База знаний маркетинговой команды Bravo. Obsidian vault.
 
-Используется агентами Steve (CMO) и Hype (Content), а также напрямую Артёмом через Obsidian.
+Используется агентом Steve (CMO) и его контент-субагентом, а также напрямую Артёмом через Obsidian.
 
 ## Открыть в Obsidian
 
@@ -15,5 +15,3 @@ Open vault → выбрать эту папку. Vault настроен чере
 ## Связи
 
 - Используется агентом `brv-cmo-steve` через git submodule.
-- Используется агентом `brv-content-hype` через git submodule.
-- Дизайн целиком: [spec в Steve repo](https://github.com/gobravoru/brv-cmo-steve/blob/main/docs/superpowers/specs/2026-05-24-steve-hype-marketing-team-design.md).
