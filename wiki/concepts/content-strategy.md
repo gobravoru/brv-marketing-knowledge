@@ -52,7 +52,7 @@ updated: 2026-05-25
 
 ## Антиповтор
 
-- Перед кампанией сверяюсь с реестром использованных тем/углов ([[learnings]] + `posts/`) — не повторять угол.
+- Перед кампанией сверяюсь с [[content-registry]] (+ [[learnings]], `posts/`) — не повторять угол.
 - Что зашло по метрикам → усиливаем новым углом; что не зашло → убираем.
 
-Связано: [[positioning]], [[brand-voice]], [[hook-formulas]], [[telegram]], [[demo-profiles]], [[competitors]], [[learnings]].
+Связано: [[positioning]], [[brand-voice]], [[hook-formulas]], [[telegram]], [[demo-profiles]], [[competitors]], [[learnings]], [[content-registry]].
