@@ -42,4 +42,4 @@ updated: 2026-05-24
 
 ## Источники
 
-- [[raw/product-docs/target-audience]] (раздел «Сегмент 2»)
+- [target-audience](../../../raw/product-docs/target-audience.md) (раздел «Сегмент 2»)

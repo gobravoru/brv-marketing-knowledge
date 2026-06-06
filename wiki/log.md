@@ -7,7 +7,7 @@
 ---
 
 2026-05-24 bootstrap — vault создан, добавлен schema (Steve)
-2026-05-24 ingest [[bravo-product]], [[target-audience]] → seeded [[young-trainer]], [[experienced-trainer]], [[positioning]] v0, [[brand-voice]] v0 (Steve)
+2026-05-24 ingest [bravo-product](../raw/product-docs/bravo-product.md), [target-audience](../raw/product-docs/target-audience.md) → seeded [[young-trainer]], [[experienced-trainer]], [[positioning]] v0, [[brand-voice]] v0 (Steve)
 2026-05-24 hard-contract edit — WhatsApp → Telegram в [[positioning]], [[hook-formulas]], [[experienced-trainer]]. Причина: на ru-рынке ЦА тренеров общается с клиентами в Telegram, а не в WhatsApp. PR pr/whatsapp-to-telegram-and-campaign-warmup, approve @arkoval1 (Steve)
 2026-05-24 campaign created — [[0001-warmup-content]] (Steve)
 2026-05-25 insight — реальная воронка от Артёма: ~5-7 установок/нед → 1-2 профиля → 0 платящих. Горлышко = trial→paid, не трафик/контент. Зафиксировано в [[learnings]] (Steve)
@@ -25,3 +25,4 @@
 2026-05-25 triage → 2-й раунд правок BMK-15 (необработанный фидбэк Артёма по v2): посты #4/#5/#10 переписаны v3 (BMK-48/49/54), #9 новый самостоятельный заголовок (BMK-53), #12 принят заголовок Артёма (BMK-56) — все In Review. Паттерн раунда-2 (смысловые ямы / «иишный» тон / несамостоятельные заголовки) → [[learnings]] + предложена правка skill write-telegram-post (PR) (Steve)
 2026-05-25 infra → запущена облачная routine «СМО проверка задач в работе» (Claude Code on web): 3×/день (07/15/21 МСК) автономный обход Linear, ответы/работа в рамках порога автономии, сводка в Pachca. Детекция по префиксу `[Steve]`; правило ack-на-каждый-коммент в skill work-with-artem. Процедура — skill daily-linear-triage; невоспроизводимый из репо веб-конфиг — в agent-памяти. Также фикс: валидатор длины (UTF-8 локаль). (Steve)
 2026-05-26 infra → модели на Opus 4.7: hype (контент-субагент) переведён Sonnet → Opus 4.7 + основная сессия routine на Opus 4.7. Решение Артёма — выше качество контента после 2 раундов правок за «иишность». (Steve)
+2026-06-06 lint → fixed 17 broken wikilinks (raw-ссылки → md-link, удалены отсылки к несуществующим страницам), resolved 2 orphans ([[content-registry]] и [[goals]] подключены из [[content-strategy]]). Hard contracts ([[positioning]], [[brand-voice]]) содержат `[[raw/...]]`-ссылки на источники — не правил по правилам lint'а, флаганул отдельно. PR в knowledge репо. (Steve)
