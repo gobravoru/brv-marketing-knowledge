@@ -19,12 +19,12 @@
 ### ICP — целевые персоны
 - [[young-trainer]] — молодой тренер 23-28 лет
 - [[experienced-trainer]] — опытный тренер 30-40 лет
-- [[trainer-blogger]] — тренер-блогер (доп. сегмент)
+- `trainer-blogger` — тренер-блогер (доп. сегмент, страницы пока нет)
 
 ### Channels
 - [[telegram]]
-- [[dzen]] (планируется — после обкатки Telegram)
-- [[seo]] (планируется — после обкатки Telegram)
+- `dzen` (планируется — после обкатки Telegram)
+- `seo` (планируется — после обкатки Telegram)
 
 ### Competitors
 - [[competitors]] — карта конкурентов ru-рынка (ближайший — TRENERA.PRO)
