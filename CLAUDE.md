@@ -24,6 +24,7 @@
 - `wiki/concepts/positioning.md`
 - `wiki/concepts/brand-voice.md`
 - `wiki/concepts/banned-words.md`
+- `wiki/concepts/visual-style.md`
 
 Если ты агент — не переписывай их по своей инициативе. Если видишь, что устарели — предложи правку Артёму и меняй только после его согласия.
 
