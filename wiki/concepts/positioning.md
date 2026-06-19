@@ -4,6 +4,7 @@ status: draft
 updated: 2026-05-24
 hard-contract: true
 review-required: artem
+sources: [raw/product-docs/bravo-product.md, raw/product-docs/target-audience.md]
 ---
 
 # Positioning — Bravo (v0)
@@ -46,4 +47,4 @@ Bravo — iOS-приложение, которое помогает персон
 ---
 
 **Версия:** v0 — черновик на ревью Артёма
-**Источники:** [[raw/product-docs/bravo-product]], [[raw/product-docs/target-audience]]
+**Источники:** [bravo-product](../../raw/product-docs/bravo-product.md), [target-audience](../../raw/product-docs/target-audience.md)

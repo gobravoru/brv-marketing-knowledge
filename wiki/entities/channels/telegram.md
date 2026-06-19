@@ -3,11 +3,12 @@ type: entity
 subtype: channel
 status: active
 updated: 2026-05-25
+sources: [raw/product-docs/target-audience.md]
 ---
 
 # Telegram
 
-Стартовый канал Bravo. По данным из [[raw/product-docs/target-audience]] — основная ставка для общения с тренерами.
+Стартовый канал Bravo. По данным из [target-audience](../../../raw/product-docs/target-audience.md) — основная ставка для общения с тренерами.
 
 ## Текущее состояние (на 2026-05-25)
 

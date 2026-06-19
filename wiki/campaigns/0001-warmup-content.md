@@ -4,6 +4,7 @@ status: archived
 updated: 2026-05-25
 owner: steve
 hard-contract: false
+sources: [raw/product-docs/target-audience.md]
 ---
 
 # Campaign 0001 — Warmup content для TG-канала Bravo
@@ -80,7 +81,7 @@ hard-contract: false
 
 ## Риски
 
-- **Нет цитат тренеров** ([[proof-points]] раздел пуст, raw/interviews пусто). Артём выбрал путь Б — пишем сейчас на синтетике из [[raw/product-docs/target-audience]]. После 0→1 заведём интервью и переделаем слабые посты.
+- **Нет цитат тренеров** ([[proof-points]] раздел пуст, raw/interviews пусто). Артём выбрал путь Б — пишем сейчас на синтетике из [target-audience](../../raw/product-docs/target-audience.md). После 0→1 заведём интервью и переделаем слабые посты.
 - **Нет данных про конкретные TG-каналы посева** ([[competitors]] пуст). Это блокирует следующую кампанию-посев, не эту.
 - **Канал на 20 подписчиков** — текущая аудитория не репрезентативна для метрик. Любые KPI меряем только после первого посева, а не сейчас.
 

@@ -6,6 +6,7 @@ hard-contract: true
 review-required: artem
 version: v1.1
 source: raw/product-docs/2026-05-24-brand-voice-source.md
+sources: [raw/product-docs/2026-05-24-brand-voice-source.md]
 ---
 
 > 🔒 Hard contract. Изменения только через PR с approve от Артёма.
@@ -485,5 +486,5 @@ Telegram — главный канал Bravo. Здесь формируется 
 ---
 
 **Версия:** v1.2 (2026-06-17, апрув Артёма — эмодзи дозированно 0–2/пост). v1.1 — base = документ Артёма из [BMK-1](https://linear.app/bravoapp/issue/BMK-1) (approved). При замене v0→v1 сохранён ранее одобренный Артёмом hard-contract-принцип «От трудности — к возможности» (исходно «От боли — к возможности», commit fb94dfc, 1-й раунд приёмки BMK-15) — встроен в раздел «Тон голоса» в формулировке, совместимой со стоп-листом.
-**Источник:** [[2026-05-24-brand-voice-source]] — оригинальный документ Артёма от 2026-05-24, сохранён в `raw/product-docs/` как immutable артефакт.
+**Источник:** [2026-05-24-brand-voice-source](../../raw/product-docs/2026-05-24-brand-voice-source.md) — оригинальный документ Артёма от 2026-05-24, сохранён в `raw/product-docs/` как immutable артефакт.
 **Открытая гипотеза на тест (не в hard contract):** для cold-acquisition контента (реклама на тренеров, незнакомых с брендом) Nike-стиль без боли может конвертить хуже описания боли — потолок дохода, Telegram-хаос. Возврат при запуске рекламных кампаний; проверка через A/B.

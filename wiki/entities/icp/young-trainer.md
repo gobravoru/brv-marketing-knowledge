@@ -3,6 +3,7 @@ type: entity
 subtype: icp
 status: active
 updated: 2026-05-24
+sources: [raw/product-docs/target-audience.md]
 ---
 
 # Young trainer (23-28)
@@ -43,4 +44,4 @@ updated: 2026-05-24
 
 ## Источники
 
-- [[raw/product-docs/target-audience]] (раздел «Сегмент 1»)
+- [target-audience](../../../raw/product-docs/target-audience.md) (раздел «Сегмент 1»)

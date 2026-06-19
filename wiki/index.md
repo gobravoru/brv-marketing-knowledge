@@ -10,6 +10,7 @@
 - [[visual-style]] 🔒 — визуальный канон обложек (gpt-image-2, конструктор промптов)
 - [[banned-words]] 🔒 — запрещённые слова и AI-tells
 - [[hook-formulas]] — формулы цепляющих хуков
+- [[headline-swipe]] — swipe-file сильных заголовков (эталоны Caples/Ogilvy/Schwab, калибр для skill `headline-craft`)
 - [[proof-points]] — цитаты, метрики, кейсы для аргументации
 - [[learnings]] — что у нас работает / не работает (уроки из нашей работы)
 - [[content-strategy]] — рубрики, фича-серии, как планируем контент без повторов
