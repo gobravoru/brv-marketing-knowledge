@@ -8,6 +8,7 @@
 - [[positioning]] 🔒 — позиционирование Bravo
 - [[brand-voice]] 🔒 — голос Bravo в постах
 - [[visual-style]] 🔒 — визуальный канон обложек (gpt-image-2, конструктор промптов)
+- [[visual-approaches]] — 15 визуальных подходов из атласа (рецепты-скелеты, gap-статус ленты, программа экспериментов)
 - [[banned-words]] 🔒 — запрещённые слова и AI-tells
 - [[hook-formulas]] — формулы цепляющих хуков
 - [[headline-swipe]] — swipe-file сильных заголовков (эталоны Caples/Ogilvy/Schwab, калибр для skill `headline-craft`)
