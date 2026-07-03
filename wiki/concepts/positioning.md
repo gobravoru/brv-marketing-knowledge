@@ -1,7 +1,7 @@
 ---
 type: concept
-status: draft
-updated: 2026-05-24
+status: active
+updated: 2026-07-03
 hard-contract: true
 review-required: artem
 sources: [raw/product-docs/bravo-product.md, raw/product-docs/target-audience.md]
