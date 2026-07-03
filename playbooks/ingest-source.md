@@ -14,7 +14,7 @@
 
 3. **Определи затронутые wiki-страницы:**
    - Какие ICP-персоны нужно обновить?
-   - Какие concepts затронуты (positioning ⛔, brand-voice ⛔, banned-words ⛔ — только PR; hook-formulas, proof-points — можно обновить напрямую)?
+   - Какие concepts затронуты (positioning ⛔, brand-voice ⛔, banned-words ⛔, visual-style ⛔ — hard contracts, напрямую не правь (см. шаг 4); hook-formulas, proof-points — можно обновить напрямую)?
    - Появилась ли новая entity, которой ещё нет?
 
 4. **Обнови wiki-страницы.** Если затронут hard-contract — открой issue в Linear с предложением (не правь напрямую).

@@ -1,7 +1,7 @@
 ---
 type: concept
 status: active
-updated: 2026-05-25
+updated: 2026-06-17
 ---
 
 # Goals — Bravo Marketing

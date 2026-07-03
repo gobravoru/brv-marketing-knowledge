@@ -9,7 +9,7 @@
 type: post
 channel: telegram
 published: YYYY-MM-DD
-linear-issue: CNT-NN
+linear-issue: BMK-NN
 campaigns: [<campaign-slug>, ...]
 hook-formula: pain-story | hard-truth | compare-then-flip | question-lead | other
 icp-target: young-trainer | experienced-trainer | both
