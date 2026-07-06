@@ -42,7 +42,7 @@ sources: [raw/product-docs/target-audience.md]
 
 Решение 2026-07: **бот публикует, MTProto читает**.
 - **Публикация** — бот через `poster.py` из реестра (Bot API; просмотры постов ботам недоступны в принципе).
-- **Метрики постов** — read-only MTProto user-session (отдельный аккаунт-сборщик): views/forwards/reactions по `message_id` из реестра, без порогов; полная stats.* откроется при ~500 подписчиков. Доступ к @bravo_pro проверен вживую (существующие посты читаются с views). Реализация — `BMK-140`. Факты и грабли: [2026-07-03-telegram-bot-vs-mtproto-research](../../../raw/sources/2026-07-03-telegram-bot-vs-mtproto-research.md).
+- **Метрики постов** — `tg-pipeline/post_metrics.py` (read-only MTProto user-session, аккаунт-сборщик): views/forwards/reactions по постам канала, наши тегаются по `message_id` из реестра (органические тоже пишутся — базовый срез), история в листе `post_metrics` Sheet, upsert по (date, message_id). Построен и протестирован локально 06.07 (база 26 постов захвачена). Полная stats.* откроется при ~500 подписчиков теми же ключами. `BMK-140`; факты — [2026-07-03-telegram-bot-vs-mtproto-research](../../../raw/sources/2026-07-03-telegram-bot-vs-mtproto-research.md). Облачный запуск ждёт настройки сети рутины под MTProto (Telegram DC — IP-диапазоны, не `api.telegram.org`).
 
 ## Метрики, которые отслеживаем
 
