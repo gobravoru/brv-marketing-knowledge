@@ -34,11 +34,15 @@ sources: [raw/product-docs/target-audience.md]
 - FAQ/инструкции 1000-2000 знаков
 - Обложка — по сигналу Артёма после выбора заголовка (заголовок-gate, см. brief-content-task); генерит конвейер обложек (cover.py) по канону [[visual-style]]
 
+## Боевой канал
+
+**[@bravo_pro](https://t.me/bravo_pro)** (id `-1002279724681`) — тот же канал, что Артём вёл сам (~37 органических постов). С 2026-07 — рабочий канал производства: сюда публикует конвейер. Бот-постер `@steve_brv_bot` — админ с правом Post messages. Задаётся env `TG_CHANNEL=@bravo_pro` (в `poster.py` и в облачной рутине).
+
 ## Доставка и аналитика — гибридная архитектура
 
 Решение 2026-07: **бот публикует, MTProto читает**.
 - **Публикация** — бот через `poster.py` из реестра (Bot API; просмотры постов ботам недоступны в принципе).
-- **Метрики постов** — read-only MTProto user-session (отдельный аккаунт-сборщик): views/forwards/reactions по `message_id` из реестра, без порогов; полная stats.* откроется при ~500 подписчиков. Реализация — `BMK-140` (после переключения на боевой канал). Факты и грабли: [2026-07-03-telegram-bot-vs-mtproto-research](../../../raw/sources/2026-07-03-telegram-bot-vs-mtproto-research.md).
+- **Метрики постов** — read-only MTProto user-session (отдельный аккаунт-сборщик): views/forwards/reactions по `message_id` из реестра, без порогов; полная stats.* откроется при ~500 подписчиков. Доступ к @bravo_pro проверен вживую (существующие посты читаются с views). Реализация — `BMK-140`. Факты и грабли: [2026-07-03-telegram-bot-vs-mtproto-research](../../../raw/sources/2026-07-03-telegram-bot-vs-mtproto-research.md).
 
 ## Метрики, которые отслеживаем
 
