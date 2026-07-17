@@ -2,7 +2,7 @@
 type: entity
 subtype: channel
 status: active
-updated: 2026-05-25
+updated: 2026-07-17
 sources: [raw/product-docs/target-audience.md]
 ---
 
@@ -46,11 +46,13 @@ sources: [raw/product-docs/target-audience.md]
 
 ## Метрики, которые отслеживаем
 
-- views (MTProto-сборщик, BMK-140)
+Канал мерим **здоровьем сообщества**, не атрибуцией в платящих: роль — верх/середина воронки (community), связь с NSM непрямая через доверие и referral ([[content-strategy]] «Роль канала»). Снимает `post_metrics.py`.
+
+- рост подписчиков
+- views — охват (MTProto-сборщик, BMK-140)
+- **forwards — главный сигнал ценности** (vs views = коэффициент вирусности)
 - reactions
-- forwards (vs views = коэффициент вирусности)
-- link-clicks на gobravo.ru
-- → installs / trials / paid (через AppMetrica, со связкой по UTM или промокоду)
+- link-clicks на gobravo.ru — вторичный сигнал интереса; прямой trial→paid ведут SEO/таргет, не канал
 
 ## Что зашло / не зашло
 
