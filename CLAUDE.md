@@ -22,7 +22,6 @@
 
 Файлы, которые меняются **только с явного согласия Артёма**:
 - `wiki/concepts/positioning.md`
-- `wiki/concepts/brand-voice.md`
 - `wiki/concepts/banned-words.md`
 - `wiki/concepts/visual-style.md`
 

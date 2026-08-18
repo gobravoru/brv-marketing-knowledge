@@ -7,7 +7,7 @@ sources: [raw/sources/2026-07-02-higgsfield-image-prompting-research.md, raw/sou
 
 # Visual style — визуальный канон обложек Bravo 🔒
 
-> **🔒 Hard contract.** Визуальный язык обложек — аналог [[brand-voice]] для картинок. Меняется только с явного согласия Артёма. История решений — [[learnings]] и `log.md`.
+> **🔒 Hard contract.** Визуальный язык обложек — камертон для картинок (текстовый аналог — [[post-swipe]]). Меняется только с явного согласия Артёма. История решений — [[learnings]] и `log.md`.
 
 ## Процесс
 
