@@ -1,7 +1,7 @@
 ---
 type: concept
 status: active
-created: 2026-07-03
+updated: 2026-07-03
 sources: [raw/sources/2026-07-02-atlas-per-frame-analysis.md]
 ---
 
